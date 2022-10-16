@@ -1,9 +1,7 @@
 <template>
   <div>
-    <img
-      src="../assets/wave.svg"
-      style="transform: rotateX(180deg) rotateY(180deg); margin-bottom: -1px"
-    />
+    <div class="wave"></div>
+
     <footer class="pb-5">
       <div class="container">
         <div
@@ -15,9 +13,9 @@
           <div
             class="col-lg-4 col-12 text-white justify-content-around justify-content-lg-start mb-4 mb-lg-0"
           >
-            <h5 class="text-lg-start text-center">Indirizzo:</h5>
+            <h5 class="text-lg-start text-center mb-lg-4 mb-3">Indirizzo:</h5>
             <span class="d-flex justify-content-lg-start justify-content-center"
-              >Tento,Italia</span
+              >Tento, 38123, Italia</span
             >
           </div>
           <div class="col-12 col-lg-4 text-white">
@@ -56,6 +54,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.wave {
+  background-image: url(../assets/wave.svg);
+  transform: rotateX(180deg) rotateY(180deg);
+  margin-bottom: -1px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   background: #74a02d;
   .email {
@@ -67,6 +74,8 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  /* For desktop: */
+  .wave {
+    height: 100px;
+  }
 }
 </style>

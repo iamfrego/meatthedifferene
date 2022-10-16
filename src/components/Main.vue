@@ -26,6 +26,7 @@
       >
         <span class="row flex-lg-row flex-column align-items-center">
           <span class="text-center">
+            <div class="fs-4 fw-bold" style="color: #74a02d">Chi Siamo?</div>
             Noi siamo Meat The Difference, siamo studenti universitari che hanno
             un obiettivo comune, combattere il cambiamento climatico. <br />
             E’ il momento giusto per
@@ -38,7 +39,11 @@
       <div
         class="col-lg-5 col-10 p-5 b_rounded justify-content-center align-items-center bg-white order-lg-4 order-5"
       >
-        <span class="text-center">Cambiamo il mondo mangiando.</span> <br />
+        <span class="text-center">
+          <div class="fs-4 fw-bold" style="color: #74a02d">Mission</div>
+          Cambiamo il mondo mangiando.</span
+        >
+        <br />
         Il nostro obiettivo è <span class="fw-bolder">SENSIBILIZZARE</span> le
         persone sull’impatto ambientale dovuto al consumo di carne da
         allevamento dove gli animali non conducono una vita minimamente
@@ -57,9 +62,45 @@
       <div
         class="col-10 p-lg-5 p-3 mt-5 b_rounded d-flex flex-column justify-content-center align-items-center bg-white order-last"
       >
-        <span class="fs-2 fw-bolder text-center" style="color: #74a02d">
-          Perché meglio vegetale?</span
+        <span
+          class="fs-2 fw-bolder text-center pt-4 mb-lg-4 mb-3"
+          style="color: #74a02d"
+          >Perché meglio vegetale?</span
         >
+        <div class="row mt-3 justify-content-around flex-column flex-lg-row">
+          <div class="col-lg-4 col-12 d-flex mb-3 flex-column">
+            <i
+              class="fa-solid fa-earth-europe fa-3x me-3 text-center mb-3"
+              style="color: #643c26"
+            ></i>
+            <p class="text-center fs-4">
+              Risparmio del <span class="fw-bolder">95%</span> dei terreni
+              coltivabili
+            </p>
+          </div>
+          <div class="col-lg-4 col-12 d-flex mb-3 flex-column">
+            <i
+              class="fa-solid fa-droplet fa-3x me-3 text-center mb-3"
+              style="color: #643c26"
+            ></i>
+            <p class="text-center fs-4">
+              Un risparmio dell'<span class="fw-bolder">80%</span> di acqua
+            </p>
+          </div>
+          <div class="col-lg-4 col-12 d-flex mb-3 flex-column">
+            <i
+              class="fa-solid fa-cow fa-3x me-3 text-center mb-3"
+              style="color: #643c26"
+            ></i>
+            <p class="text-center fs-4">
+              Il <span class="fw-bolder">90%</span> in meno di emissioni di gas
+              serra
+            </p>
+          </div>
+          <div class="col-12 text-center fs-6 pb-4">
+            rispetto alla produzione di carne
+          </div>
+        </div>
       </div>
     </div>
   </div>
