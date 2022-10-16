@@ -15,7 +15,7 @@
           >
             <h5 class="text-lg-start text-center mb-lg-4 mb-3">Indirizzo:</h5>
             <span class="d-flex justify-content-lg-start justify-content-center"
-              >Tento, 38123, Italia</span
+              >Trento, 38123, Italia</span
             >
           </div>
           <div class="col-12 col-lg-4 text-white">

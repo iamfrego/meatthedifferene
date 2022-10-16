@@ -29,7 +29,7 @@
             <div class="fs-4 fw-bold" style="color: #74a02d">Chi Siamo?</div>
             Noi siamo Meat The Difference, siamo studenti universitari che hanno
             un obiettivo comune, combattere il cambiamento climatico. <br />
-            E’ il momento giusto per
+            È il momento giusto per
             <span class="fw-bolder">CAMBIARE</span>, le nostre abitudini, la
             nostra alimentazione e l’impronta ecologica che ognuno di noi ha sul
             <span class="fw-bolder">PIANETA</span>.
@@ -37,7 +37,7 @@
         </span>
       </div>
       <div
-        class="col-lg-5 col-10 p-5 b_rounded justify-content-center align-items-center bg-white order-lg-4 order-5"
+        class="col-lg-5 col-10 p-5 b_rounded justify-content-center align-items-center bg-white order-lg-4 order-5 text-center"
       >
         <span class="text-center">
           <div class="fs-4 fw-bold" style="color: #74a02d">Mission</div>
